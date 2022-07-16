@@ -19,10 +19,74 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link href="css/vars.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
 </head>
 <body>
     
+    <div class="mt-0">
+        <div class="row line-one">
+            <div class="col-lg-10 col-md-6 col-sm-6 col-6 line-one-column-one">
+                <img src="img/logo.png" width="40">
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 col-6 line-one-column-two mt-1">
+                <a class="btn btn-sm btn-danger" id="new">Añadir Nueva Tarea</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="mt-2">
+        <div class="row line-two">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 line-two-column-one-title">Por hacer</div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-4 line-two-column-two-title">En progreso</div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 line-two-column-three-title">Finalizadas</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 line-two-column-one"></div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-4 line-two-column-two"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 line-two-column-three"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="form">
+        <div class="row mt-0">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 form-task">Nueva Tarea</div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="mb-2">
+                    <label class="form-label form-title">Titulo :</label>
+                    <input type="text" class="form-control" id="title" placeholder="Escriba aquí ...">
+                </div>
+                <div class="mb-2">
+                    <label class="form-label form-responsible">Responsable :</label>
+                    <select class="form-select" id="responsible">
+                        <option value="0">Seleccionar</option>
+                    </select>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label form-term">Plazo de Entrega :</label>
+                    <select class="form-select" id="term">
+                        <option value="0">Seleccionar</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-btn d-grid gap-2 mt-4">
+                <a class="btn btn-sm btn-danger btn-block" id="save">Guardar</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-btn d-grid gap-2 mt-4">
+                <a class="btn btn-sm btn-light btn-block" id="cancel">Cancelar</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
 
 </body>
 </html>
