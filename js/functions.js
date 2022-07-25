@@ -1,3 +1,15 @@
+const API_URL = "https://my-json-server.typicode.com/demartinez8/M3U2TrelloApp-DavidMartinez"
+
+axios.get('${API_URL}/tasks').then((res) => showTasks(res.data)).catch((err) => console.error(err));
+
+const showTasks = (data) => {
+    data.map((task) => createTask(task));
+};
+
+const createTask = (task) => {
+    
+}
+
 
 let form = document.querySelector("#form");
 

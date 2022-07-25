@@ -1,0 +1,58 @@
+{
+    "tasks":[
+        {
+            "id": 1,
+            "title": "Estructura y Maquetación",
+            "person": "David Esteban Martinez Moreno",
+            "details": "Compilación y Cargue del Proyecto al Repositorio",
+            "state": "pending",
+            "deadline": "1658753348",
+            "created": "1658854148"
+        },
+        {
+            "id": 2,
+            "title": "Trabajo en la Interfaz",
+            "person": "Maria Ines Moreno",
+            "details": "Actualización del Documento Base (index.html)",
+            "state": "progress",
+            "deadline": "1658705520",
+            "created": "1658753348"
+        },
+        {
+            "id": 3,
+            "title": "CSS y Javascript",
+            "person": "Maicol Estiven Molina Moreno",
+            "details": "Publicación de Estilos y Dinamismo del Proyecto",
+            "state": "progress",
+            "deadline": "1658722208",
+            "created": "1658854148"
+        },
+        {
+            "id": 4,
+            "title": "Seguimiento",
+            "person": "Graciela Moreno",
+            "details": "Seguimiento a los Avances del Proyecto",
+            "state": "done",
+            "deadline": "1658722208",
+            "created": "1658854148"
+        },
+        {
+            "id": 5,
+            "title": "API",
+            "person": "Carolina Rodriguez",
+            "details": "Modificación del FAKE Api",
+            "state": "progress",
+            "deadline": "1658722208",
+            "created": "1658854148"
+        },
+        {
+            "id": 6,
+            "title": "HTML",
+            "person": "David Esteban Martinez Moreno",
+            "details": "Integración del Estilo con el HTML",
+            "state": "pending",
+            "deadline": "1658722208",
+            "created": "1658854148"
+        }
+    ]
+}
