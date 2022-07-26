@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap");
+
 :root {
     --fund-body: #e6e6e6;
     --fund-block: #f8f8f8;
     --fund-form: #F5F5F5;
     --fund-shade: #cfcfcf;
+
+    --font-primary: "Oswald", sans-serif;
+    --font-secundary: "Raleway", sans-serif;
+
+    --size-font: 13px;
   }

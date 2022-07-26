@@ -17,10 +17,12 @@ body{
     font-weight: bold;
     margin-right: 15px;
     padding: 10px 0px;
+    font-family: var(--font-primary);
 }
 .line-two-column-one, .line-two-column-two, .line-two-column-three{
     background-color: var(--fund-block);
     margin-right: 15px;
+    padding-top: 10px;
     border-radius: 5px;
     height: 480px;
 }
@@ -36,10 +38,39 @@ body{
     display: none;
 }
 #form .form-task{
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     padding-bottom: 7px;
+    font-family: var(--font-primary);
 }
-#form .form-title, .form-responsible, .form-term{
+#form .form-title, .form-responsible, .form-description, .form-term{
     font-weight: 500;
+}
+#form #description{
+    height: 150px;
+}
+.container-task{
+    background-color: var(--fund-form);
+    border: 2px dashed #afafaf;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container-task:hover{
+    padding: 10.3px;
+    box-shadow: 5px 5px 5px #b6b6b644;
+}
+.container-task-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.container-task-person, .container-task-detail, .container-task-deadline{
+    font-size: var(--size-font);
+}
+.container-task-label{
+    font-weight: 600;
+}
+#preload{
+    display: none;
 }
